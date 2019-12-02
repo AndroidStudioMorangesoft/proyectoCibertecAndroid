@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lista_doctores">
+        <item>------------- Seleccione Medico ------------</item>
+        <item>Dr. Samantha Mayra García Samaniego</item>
+        <item>Dr. Olguin Grandez Culqui</item>
+        <item>Dr. Helen Yuli Reyes Tamara</item>
+        <item>Dr. Sandra González Navarrete </item>
+        <item>Dr. Jesús Gabriel Gonzáles Curanto</item>
+        <item>Dr. Fernando Benjamín Valdivia Mamani</item>
+        <item>Dr. Luis Fernando Álvarez Tiburcio</item>
+        <item>Dr. Juan Manuel Rivera Vizcarra</item>
+        <item>Dr. Alan Ray Foronda Aguirre</item>
+        <item>Dr. Ely Denitsa Rodríguez</item>
+    </string-array>
+
+
+    <string-array name="lista_especialidades">
+        <item>---------- Seleccione Especialidad --------</item>
+        <item>Cardiología</item>
+        <item>Neurología</item>
+        <item>Odontología</item>
+        <item>Pedríatria</item>
+        <item>Nutricíon</item>
+        <item>Geriatría</item>
+        <item>Endocrinología</item>
+        <item>Infectología</item>
+        <item>Oncología médica</item>
+        <item>Toxicología</item>
+        <item>Alergología</item>
+    </string-array>
+
+
+</resources>

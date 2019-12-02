@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:background="@drawable/fondo2"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+     <LinearLayout
+
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+         android:orientation="horizontal">
+
+         <EditText
+             android:id="@+id/edt_NombrePaciente"
+             android:layout_width="300dp"
+             android:layout_height="wrap_content"
+             android:hint="                         Nombre" />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edt_ApellidoPaciente"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="                 Apellido Paciente" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edt_Edad"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="                             Edad" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edt_Sexo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="                             Sexo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginStart="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_Direccion"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="                          Direccion" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginStart="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/spinnermedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginStart="40dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/spinnespecialidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_Fecha"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="                               Fecha" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginStart="40dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_Sede"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="                                Sede" />
+
+
+            </LinearLayout>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="47dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="20dp">
+
+    <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                        android:id="@+id/btntampildata"
+                        android:layout_width="190dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="1"
+                        android:text="Lista"
+                    android:background="@color/colorAccent"
+
+                    />
+
+                    <Button
+                        android:id="@+id/btn_insertdata"
+                        android:layout_width="220dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:text="Guarda"
+                        android:background="@color/colorAccent"
+                        />
+
+                    <Button
+                        android:id="@+id/btnDelete"
+                        android:layout_width="220dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_weight="1"
+                        android:text="Elimina"
+                        android:visibility="gone"
+                        android:background="@color/colorAccent"/>
+
+                    <Button
+                        android:id="@+id/btnUpdate"
+                        android:layout_width="230dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:text="Actualiza"
+                        android:visibility="gone"
+                        android:background="@color/colorAccent"/>
+
+                </LinearLayout>
+
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

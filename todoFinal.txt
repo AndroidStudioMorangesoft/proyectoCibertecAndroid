@@ -1,0 +1,61 @@
+
+create database bd_boston
+use bd_boston
+
+
+
+CREATE TABLE recepcion (
+ idrecepcion char(15) NOT NULL,
+ nombrerecepcion varchar(60) NOT NULL,
+ idpaciente char(20) not null,
+ idmedico char(20) NOT NULL,
+ loginrecep varchar(15),
+ pasrecepc varchar(15),
+ primary key(idrecepcion)
+) ENGINE=InnoDB ;
+
+
+INSERT INTO recepcion VALUES('20151','Jose ','6001','2001','jose','jose');
+
+
+
+
+
+
+create or replace table tb_historial
+( `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+`NombrePaciente` varchar(100) NOT NULL,
+`ApellidoPaciente` varchar(100) NOT NULL,
+`Edad` varchar(100) NOT NULL,
+`Sexo` varchar(1) NOT NULL,
+`direccion` varchar(100) NOT NULL,
+`NombreMedico` varchar(100) NOT NULL,
+`Especialidad` varchar(100) NOT NULL,
+`fecha` varchar(100) NOT NULL,
+`sede` varchar(100) NOT NULL
+);
+
+
+
+delimiter @@
+
+
+create procedure ListaHistorialPaciente()
+
+begin
+
+
+select * from tb_historial;
+
+end @@
+
+
+delimiter ; 
+
+
+call ListaHistorialPaciente()
+
+
+
+
+
